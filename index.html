@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="blob-css.css">
+    <title>BlobCSS Demo</title>
+</head>
+<body>
+    <header>
+        <h1>BlobCSS</h1>
+        <p>BlobCSS is a fun CSS library with glass containers, blob buttons, animated blobs, floating text, cards, modals, and utilities!</p>
+        <p>Visit <a href=""></a></p>
+    </header>
+
+    <section>
+        <h2>Glass Container & Blob Button</h2>
+        <div class="glass-container">
+            <h2 class="floaty-text">Sample Title</h2>
+            <p>This is a glass container with sharp text.</p>
+            <button class="blob-btn">Click Me!</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Blob Card Component</h2>
+        <div class="blob-card">
+            <h3>Card Title</h3>
+            <p>Content inside a reusable card component.</p>
+            <button class="blob-btn">Learn More</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Animated Blob</h2>
+        <div class="blob"></div>
+    </section>
+
+    <section>
+        <h2>Modal Demo</h2>
+        <button class="blob-btn" onclick="document.querySelector('.blob-modal').classList.add('active')">Open Modal</button>
+        <div class="blob-modal">
+            <h3>Modal Title</h3>
+            <p>This is a modal popup!</p>
+            <button class="blob-btn" onclick="document.querySelector('.blob-modal').classList.remove('active')">Close</button>
+        </div>
+    </section>
+</body>
+</html>
