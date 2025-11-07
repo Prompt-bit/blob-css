@@ -4,11 +4,11 @@ BlobCSS is a lightweight CSS library that gives your website modern UI features:
 
 Include BlobCSS in your project by adding this to your HTML head:
 ```html
-<link rel="stylesheet" href="https://prompt-bit.github.io/blob-css/blob-css.css">
+<link rel="stylesheet" href="https://github.com/Prompt-bit/blob-css/blob-css.css">
 ```
 Or in your CSS:
 ```css
-@import url('https://prompt-bit.github.io/blob-css/blob-css.css');
+@import url('https://github.com/Prompt-bit/blob-css/blob-css.css');
 ```
 
 Glass Container: Wrap your content in a div with class "glass-container". Combine with utilities like m-3, p-3, text-center for spacing and alignment.
